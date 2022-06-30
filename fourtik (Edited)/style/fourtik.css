@@ -1,0 +1,249 @@
+@font-face {
+    font-family: IranSans;
+    src: url(../font/Iran-Sans.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IranSans;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+}
+.fourtikLogo {
+    margin-top: 3%;
+}
+.fourtik-logo {
+    width: 480px;
+    height: auto;
+}
+.titles {
+    padding: 2.5%;
+    direction: rtl;
+    font-size: 32px;
+    font-weight: 900;
+}
+.group-pics {
+    width: 250px;
+    height: auto;
+    padding: 0.5%;
+}
+.equation {
+    margin-top: 1.5%;
+    /* flex-wrap: wrap; */
+}
+.equ-text {
+    /* background-image: url('../images/Rectangle-0185905C-906A-4015-8C34-369B25A7F7F8@3x.png');
+    background-size: 100% 100%; */
+    border: 2px solid #1E90FF;
+    border-radius: 30px;
+    padding: 3% 2%;
+    margin: 3% 0.5%;
+    font-size: 20px;
+    font-weight: bold;
+    width: 19.5%;
+    text-align: center;
+}
+.equal-icon, .sum-icon {
+    width: 2.5%;
+    height: auto;
+}
+.signUPbutton, .testButton, .greateTeamButton {
+    background-image: url('../images/Rectangle-97AADC82-CD0A-4F8A-85E9-D8BE389BD864@2x.png');
+    background-size: 100% 100%;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 2% 5%;
+    color: #ffffff;
+    direction: rtl;
+}
+.testButton {
+    margin-top: 5%;
+    padding: 2.5%;
+}
+.greateTeamButton {
+    margin-top: 5%;
+    padding: 2.5% 3%;
+}
+.main {
+    background-image: url('../images/Rectangle-Copy-18-CA147C71-5DC3-4016-A57E-93C73F554D2A@2x.png');
+}
+.five-attributes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3% 3% 0 3%;
+}
+.attributes-img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.attributes {
+    border: 3px solid blue;
+    border-radius: 30px;
+    background-color: #ffffff;
+    width: 200px;
+    height: 200px;
+    margin: 0 0.5% 2%;
+}
+.attribute-caption, .prize-caption {
+    text-align: center;
+    color: #1E90FF; 
+    font-size: 12px; 
+    font-weight: 590;
+}
+.general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0.5%;
+}
+.general-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 0 0 0;
+}
+.number {
+    background-image: url('../images/Rectangle-Copy-29-CB9BCD9E-0499-4FE3-A2E4-392BCA1544C9.png');
+    background-size: 100% 100%;
+    width: 25px;
+    height: 27px;
+    padding: 0.2% 0.5%;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+}
+.prizes {
+    border: 3px solid blue;
+    border-radius: 30px;
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+}
+.prize {
+    background-image: url('../images/Rectangle-Copy-18-CA147C71-5DC3-4016-A57E-93C73F554D2A@2x.png');
+    flex-wrap: wrap;
+}
+.prize-pic {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.step-1 {
+    padding-top: 8%;
+}
+.nextStepIcon {
+    width: 2%;
+    height: auto;
+}
+.team {
+    background-image: url('../images/Apple TV.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1000px;
+}
+.team-table {
+    background-color: #ffffff;
+    margin: auto;
+    border: 1px solid #1E90FF;
+    border-radius: 30px;
+    width: 70%;
+    height: 430px;
+    direction: rtl;
+    color: #1E90FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+::placeholder {
+    color: powderblue;
+}
+#teamName {
+    width: 52%;
+    height: 30px;
+}
+.teamName {
+    margin-right: 20px;
+    font-size: 22px;
+}
+.sections {
+    border: 1px solid #1E90FF;
+}
+.section-1 {
+    border-style: hidden;
+    padding: 7.5px;
+}
+.section-1, .section-2, .section-3 {
+    height: 50px;
+}
+.section-2, .section-3 {
+    float: left;
+    width: 49.7%;
+    border-style: hidden;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.section-4-1, .section-4-2 {
+    float: left;
+    width: 49.7%;
+    height: 300px;
+    text-align: center;
+    border-top: 1px solid #1E90FF;
+}
+.section-4-1 {
+    border-right: 1px solid #1E90FF;;
+}
+.contact-number, .team-name {
+    margin-top: 32px;
+}
+input {
+    width: 80%;
+    height: 23px;
+    margin: 1.5%;
+    border: solid 1px #F0F8FF;
+    border-radius: 8px;
+    background-color: #F0F8FF;
+}
+input[type=text]:focus {
+    border:1px solid #1E90FF;
+    outline: none;
+}
+@media only screen and (max-width: 728px){
+    .fourtik-logo {
+        width: 250px;
+    }
+    .titles {
+        font-size: 18px;
+    }
+    .group-pics {
+        width: 100px;
+    }
+    .equ-text {
+        font-size: 11px;
+        width: 15%;
+        height: 30px;
+        margin: 1%;
+        padding: 1%;
+    }
+    .equal-icon, .sum-icon {
+        width: 2.5%;
+    }
+    .signUPbutton, .testButton, .greateTeamButton {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    /* .group-pics {
+        width: 150px;
+    } */
+}
